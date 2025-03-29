@@ -148,6 +148,15 @@ This setup ensures that all clients connected to the network via the switch rece
 
 ---
 
+## Step 7. Best Practices
+
+- Regularly **backup DHCP configuration** to prevent data loss.
+- Monitor **DHCP logs** for errors using `Event Viewer > Applications and Services Logs > Microsoft > Windows > DHCP-Server`.
+- Ensure **scope utilization is optimized** by avoiding excessively large or small IP pools.
+- Implement **DHCP Failover** for high availability in large networks.
+- Use **reservation** for critical devices (e.g., printers, servers).
+
+
 ### Step 8: Troubleshooting
 
 1. Common Issues & Solutions
@@ -180,6 +189,18 @@ This setup ensures that all clients connected to the network via the switch rece
 | 1.0     | 2025-03-29 | Sejal, Limusi, Milan | Initial document creation           |
 | 1.1     | 2025-03-30 | Sejal, Limusi, Milan | Added accountability matrix, visuals |
 | 1.2     | 2025-04-01 | Sejal, Limusi, Milan | Updated troubleshooting section      |
+
+---
+
+## Conclusion
+This document outlined the process for installing, configuring, verifying, and troubleshooting a DHCP server on Windows Server 2022. Proper DHCP setup ensures efficient IP address management and network automation. Implementing best practices further enhances reliability and performance.
+
+---
+
+## Resources
+https://www.microsoft.com/en-us/evalcenter/evaluate-windows-server-2022?msockid=3fab7419818e6e2f37636076803a6f03
+
+
 
 
 
